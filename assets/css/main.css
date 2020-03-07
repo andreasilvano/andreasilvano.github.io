@@ -1084,9 +1084,9 @@ a:hover .projectlink {
   margin-right: 0.1em;
 }
 .projectdesc {
-  font-size: 0.12em;
+  font-size: 0.15em;
   line-height: 1.2em;
-  margin-top: 0.9em;
+  margin-top: 0.6em;
   max-width: 5em;
   font-family: 'Px Grotesk Bold', sans-serif;
   display: block;
