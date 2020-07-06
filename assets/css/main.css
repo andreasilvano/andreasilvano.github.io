@@ -666,7 +666,13 @@ a.text-link:hover {
   -webkit-transition: all .2s linear;
   transition: all .2s linear;
 }
-
+a.text-link-title:link {
+}
+a.text-link-title:hover {
+  border-bottom: solid 0.5em;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
 .rotate_left {
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
@@ -855,16 +861,13 @@ a.contact:hover {
 .brandnav {
   font-family: 'Px Grotesk Bold', sans-serif;
   font-size: 1.2em;
-  top: 28px;
   z-index: 2;
-  padding-left: 1em;
 }
 .brandname {
   margin-right: 0.5em;
   text-transform: uppercase;
 }
 .brandwork {
-  margin-left: 0.5em;
 }
 a svg {
   display: inline-block;
