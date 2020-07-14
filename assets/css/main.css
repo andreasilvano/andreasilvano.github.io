@@ -959,7 +959,6 @@ svg {
 }
 .box.words {
   font-family: 'Px Grotesk Regular', sans-serif;
-  margin-top: 7%;
   margin-bottom: 0;
   font-size: 1em;
   line-height: 1.28em;
@@ -985,6 +984,16 @@ svg {
   }
 }
 @media (min-width: 980px) and (max-width: 1199px) {
+  .brandname-small {
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    display: block;
+  }
+  .brandwork-small {
+    margin-left: 0em;
+    display: block;
+  }
   .box.siteheader img {
     right: calc( (-100vw + 960px)/2 0px);
     overflow: hidden;
@@ -1136,7 +1145,7 @@ a:hover .projectlink {
   font-family: 'Px Grotesk Regular', sans-serif;
   color: #000;
   font-size: 3em;
-  margin: 150px 0 50px 0;
+  margin: 40px 0 50px 0;
   line-height: 1em;
   display: block;
 }
@@ -1387,6 +1396,16 @@ a.tags:hover {
   line-height: 1.5em;
 }
 @media (min-width: 1560px) {
+  .brandname-small {
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    display: block;
+  }
+  .brandwork-small {
+    margin-left: 0em;
+    display: block;
+  }
   .row {
     margin-left: 0px;
     *zoom: 1;
@@ -1507,6 +1526,16 @@ a.tags:hover {
   }
 }
 @media (min-width: 1200px) and (max-width: 1559px) {
+  .brandname-small {
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    display: block;
+  }
+  .brandwork-small {
+    margin-left: 0em;
+    display: block;
+  }
   .row {
     margin-left: 0px;
     *zoom: 1;
@@ -1627,6 +1656,16 @@ a.tags:hover {
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
+  .brandname-small {
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    display: block;
+  }
+  .brandwork-small {
+    margin-left: 0em;
+    display: block;
+  }
   .row {
     margin-left: 0px;
     *zoom: 1;
@@ -1812,7 +1851,7 @@ a.tags:hover {
     display: inline-block;
   }
   .brandname-small {
-    margin-top: 2em;
+    margin-top: 1em;
     text-transform: uppercase;
     font-size: 1.5em;
     display: block;
