@@ -291,6 +291,10 @@ a:hover {
   font-family: 'Px Grotesk Light';
   src: local('☺'), url('../font/Px%20Grotesk%20Light.woff') format('woff'), url('../font/Px%20Grotesk%20Light.html') format('truetype'), url('../font/Px%20Grotesk%20Light.svg') format('svg');
 }
+@font-face {
+  font-family: 'Px Grotesk Screen';
+  src: local('☺'), url('../font/Px%20Grotesk%Screen.ttf') format('ttf');
+}
 p {
   margin: 0 0 10px;
 }
