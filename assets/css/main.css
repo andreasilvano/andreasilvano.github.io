@@ -380,7 +380,7 @@ h2 {
   font-weight: bold;
   font-size: 35.2px;
   line-height: 40px;
-  color: inherit;
+  color: black;
 }
 h3 {
   margin: 10px 0 0 0;
@@ -637,7 +637,7 @@ h2 {
   text-transform: uppercase;
   margin: 0 0 0 40px;
   padding: 0 0 0 0;
-  font-size: 1.8em;
+  font-size: 1.25em;
   line-height: 1.16em;
 }
 h6 {
