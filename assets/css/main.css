@@ -956,7 +956,7 @@ svg {
 }
 .headerbox {
   width: 100%;
-  margin-top: 3em;
+  margin-top: 2em;
 }
 .box p {
   color: #000;
@@ -1869,7 +1869,7 @@ a.tags:hover {
   .brandnav {
     position: relative;
     font-size: 1em;
-    padding: 0 0 30px 0;
+    padding: 0 0 0px 0;
   }
   .ro_logo-small {
     fill: #000;
