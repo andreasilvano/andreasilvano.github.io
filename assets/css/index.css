@@ -85,13 +85,6 @@ body {
 .grid__title {
   font-family: neue-haas-grotesk-text-bold;
 }
-.arrow { display: none;}
-
-#arrow {
-  content: '\25B8';
-  display: inline;
-  text-decoration: none;
-}
 
 a.text-link:link {
   font-family: inherit, sans-serif;
