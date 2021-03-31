@@ -521,7 +521,12 @@ body.compact .grid {
   }
 
 @media screen and (max-width: 1000px) {
-
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
   .wrapper {
     display: grid;
     gap: 10px;
@@ -597,17 +602,14 @@ body.compact .grid {
   .work__content img,
   .poem__content img {
     width: 100%; }
-    .desktop {
-      display: none;
-    }
-    .mobile {
-      display: block;
-    }
   }
 
 @media screen and (max-width: 750px) {
-  .mobile {
+  .desktop {
     display: none;
+  }
+  .mobile {
+    display: block;
   }
   .wrapper {
     display: grid;
