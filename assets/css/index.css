@@ -119,7 +119,9 @@ a.text-link:hover {
 .details {
   transform: translateY(100%);
   transition: transform .2s; }
-
+  .mobile {
+    display: none;
+  }
 .top-bar {
   display: grid;
   grid-template-columns: repeat(4, calc(25vw - 18.75px));
@@ -446,8 +448,12 @@ body.compact .grid {
     list-style-type: decimal; }
 
 @media screen and (min-width: 1750px) {
+  .mobile {
+    display: none;
+  }
   html {
     font-size: 16px; }
+
   .column {
     -moz-columns: 6;
          columns: 6; }
@@ -474,15 +480,27 @@ body.compact .grid {
     .top-bar__image {
       height: calc((16.66667vw - 17.5px) * 0.615); }
     .top-bar__view {
-      grid-column: 2 / 3; } }
+      grid-column: 2 / 3; }
+
+    }
 
 @media screen and (min-width: 2000px) {
+
   html {
-    font-size: 18px; } }
+    font-size: 18px; }
+    .mobile {
+      display: none;
+    }
+  }
 
 @media screen and (min-width: 2500px) {
   html {
-    font-size: 20px; } }
+    font-size: 20px;
+    }
+    .mobile {
+      display: none;
+    }
+  }
 
 @media screen and (max-width: 1250px) {
   body.compact .grid {
@@ -498,9 +516,12 @@ body.compact .grid {
   body.compact .list__text {
     grid-column: 3 / 12; }
   body.compact .list__right {
-    grid-column: 12 / 13; } }
+    grid-column: 12 / 13; }
+
+  }
 
 @media screen and (max-width: 1000px) {
+
   .wrapper {
     display: grid;
     gap: 10px;
@@ -575,9 +596,16 @@ body.compact .grid {
     height: 56.25vw; }
   .work__content img,
   .poem__content img {
-    width: 100%; } }
+    width: 100%; }
+    .mobile {
+      display: none;
+    }
+  }
 
 @media screen and (max-width: 750px) {
+  .mobile {
+    display: none;
+  }
   .wrapper {
     display: grid;
     gap: 10px;
@@ -637,6 +665,12 @@ body.compact .grid {
     padding-left: 7.5px; } }
 
 @media screen and (max-width: 500px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
   .wrapper {
     display: grid;
     gap: 10px;
@@ -645,7 +679,6 @@ body.compact .grid {
   }
   .grid {
     display: grid;
-    /* grid-template-columns: repeat(2, calc(33.33333vw - 20px)); */
     grid-template-columns: repeat(2, calc(50vw - 20px));
     grid-gap: 15px; }
   .section__header, .work__title,
