@@ -597,8 +597,11 @@ body.compact .grid {
   .work__content img,
   .poem__content img {
     width: 100%; }
-    .mobile {
+    .desktop {
       display: none;
+    }
+    .mobile {
+      display: block;
     }
   }
 
