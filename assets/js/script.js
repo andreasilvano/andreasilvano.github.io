@@ -8,14 +8,6 @@ $(document).ready(function() {
     $(this).closest('.section').removeClass('show-archive')
   })
 
-  $('.top-bar__disable-compact').click(function() {
-    $('body').removeClass('compact')
-  })
-
-  $('.top-bar__enable-compact').click(function() {
-    $('body').addClass('compact')
-  })
-
   $('.grid__item')
     .mouseenter(function() {
       if ($(this).find('video').length > 0) {
@@ -42,37 +34,4 @@ $(document).ready(function() {
 
       $('.details').removeClass('slided')
     })
-
-
-  // Slider
-  // --------------
-
-  var $slides    = $('.slides');
-  if ($slides.length) {
-
-    var slideCount = $slides.children().length;
-    slider = new Slider($slides, slideCount);
-
-    document.addEventListener('keydown', function(e) {
-
-      switch (e.key) {
-
-        case 'ArrowRight':
-          slider.nextSlide();
-          break;
-        case 'ArrowLeft':
-          slider.prevSlide();
-          break;
-        case 'ArrowUp':
-          slider.goToSlide(null, -10);
-          break;
-        case 'ArrowDown':
-          slider.goToSlide(null, 10);
-          break;
-        default:
-          return false;
-      }
-    })
-  }
-
 })
