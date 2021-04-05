@@ -502,7 +502,13 @@ body.compact .grid {
     }
   }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
   body.compact .grid {
     display: grid;
     grid-template-columns: repeat(8, calc(12.5vw - 16.875px));
