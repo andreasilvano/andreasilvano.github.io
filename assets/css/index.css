@@ -99,7 +99,7 @@ a.text-link:link {
 
 a.text-link:hover {
   fontcolor: #000;
-  border-bottom: solid .2em;
+  border-bottom: solid .12em;
   color: #black;
   -webkit-transition: all .2s linear;
   transition: all .2s linear
