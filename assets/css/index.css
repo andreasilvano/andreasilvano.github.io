@@ -1,26 +1,4 @@
-@font-face {
-  font-family: neue-haas-grotesk-text;
-  src: url(https://andreasilvano.github.io/portfolio/assets/css/https://andreasilvano.github.io/portfolio/assets/css/font/NHaasGroteskTXPro-65Md.woff2) format("woff2");
-  src: url(font/NHaasGroteskTXPro-65Md.woff) format("woff");
-  font-display: auto;
-  font-style: normal;
-  font-weight: 500
-}
-
-@font-face {
-  font-family: neue-haas-grotesk-text-regular;
-  src: url(https://andreasilvano.github.io/portfolio/assets/css/https://andreasilvano.github.io/portfolio/assets/css/font/NHaasGroteskTXPro-55Rg.woff2) format("woff2");
-  src: url(font/NHaasGroteskTXPro-55Rg.woff) format("woff");
-  font-display: auto;
-  font-style: normal
-}
-
-@font-face {
-  font-family: neue-haas-grotesk-text-bold;
-  src: url(https://andreasilvano.github.io/portfolio/assets/css/font/NHaasGroteskTXPro-75Bd.woff2) format("woff2");
-  font-display: auto;
-  font-style: normal
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 *, :after, :before {
   margin: 0;
@@ -48,7 +26,8 @@ a {
 }
 
 html {
-  font-family: neue-haas-grotesk-text, sans-serif;
+  font-family: inter, sans-serif;
+  font-weight: 500;
   font-size: 14px
 }
 
@@ -90,7 +69,8 @@ body {
 }
 
 .grid__title {
-  font-family: neue-haas-grotesk-text-bold
+  font-family: inter;
+  font-weight: 700;
 }
 
 a.text-link:link {
