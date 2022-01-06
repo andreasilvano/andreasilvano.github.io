@@ -33,7 +33,7 @@ html {
 
 body {
   line-height: 1.3em;
-  padding: 10px 15px
+  padding: 20px 15px;
 }
 
 .embed-container {
@@ -105,7 +105,7 @@ a.text-link:hover {
 
 .top-bar {
   display: grid;
-  grid-template-columns: repeat(4, calc(25vw - 18.75px));
+  grid-template-columns: repeat(6, calc(25vw - 18.75px));
   grid-gap: 15px
 }
 
@@ -313,13 +313,35 @@ a.text-link:hover {
   height: 180px
 }
 
-@media screen and (min-width:1750px) {
+@media (min-width:1000px) and (max-width:1500px) {
+
+  .top-bar__title {
+  grid-column: 1/2
+  }
+  .top-bar__about {
+  grid-column: 4/5
+  }
+
+}
+
+@media screen and (min-width:1500px) {
+  body{
+    margin-left: 10em;
+    margin-right: 10em;
+  }
   .mobile {
     display: none
   }
 
   html {
-    font-size: 16px
+    font-size: 16px;
+  }
+
+  .top-bar__title {
+  grid-column: 1/2
+  }
+  .top-bar__about {
+  grid-column: 4/5
   }
 
   .list__title {
@@ -336,7 +358,7 @@ a.text-link:hover {
 
   .grid {
     display: grid;
-    grid-template-columns: repeat(6, calc(16.66667vw - 17.5px));
+    grid-template-columns: repeat(5, calc(16.66667vw - 17.5px));
     grid-gap: 15px
   }
 
@@ -350,7 +372,7 @@ a.text-link:hover {
 
   .top-bar {
     display: grid;
-    grid-template-columns: repeat(6, calc(16.66667vw - 17.5px));
+    grid-template-columns: repeat(3, calc(16.66667vw - 17.5px));
     grid-gap: 15px
   }
 
@@ -366,7 +388,6 @@ a.text-link:hover {
     grid-column: 2/3
   }
 }
-
 @media screen and (min-width:2000px) {
   html {
     font-size: 18px
@@ -571,9 +592,6 @@ a.text-link:hover {
     height: calc((50vw - 22.5px) * .615)
   }
 
-  .top-bar__view {
-    display: none
-  }
 
   .top-bar__close {
     grid-column: 2/3;
